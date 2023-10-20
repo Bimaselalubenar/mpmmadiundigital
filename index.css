@@ -819,9 +819,6 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text06 {
-  font-weight: 700;
-}
 .home-link {
   display: contents;
 }
@@ -1732,10 +1729,28 @@
     align-items: center;
   }
   .home-text {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-style: normal;
     text-align: center;
+    font-family: Inter;
+    font-weight: 800;
+    line-height: 1.15;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .home-text03 {
+    color: #ff0000;
   }
   .home-text04 {
+    font-size: 18px;
+    font-style: normal;
     text-align: center;
+    font-weight: 400;
+  }
+  .home-text06 {
+    color: #f76500;
+    font-weight: 700;
   }
   .home-button {
     justify-content: center;
