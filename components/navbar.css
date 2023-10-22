@@ -216,6 +216,7 @@
 }
 .navbar-link1 {
   cursor: pointer;
+  text-decoration: none;
 }
 .navbar-quick-actions {
   gap: var(--dl-space-space-oneandhalfunits);
