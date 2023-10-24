@@ -30,12 +30,14 @@
 
 
 
+
+
 @media(max-width: 479px) {
   .whats-app-container {
     height: 64px;
     display: flex;
     z-index: 100;
-    max-width: 1000px;
+    max-width: auto;
     align-items: center;
     padding-left: 0px;
     margin-bottom: 0px;

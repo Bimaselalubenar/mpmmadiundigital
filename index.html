@@ -766,5 +766,24 @@
        duration: 1000
       });
     </script>
+    <script>
+      let url = window.location.search;
+      let urlParam = new URLSearchParams(url);
+
+      let namaKonsumen = urlParam.get('nama_konsumen') || 'Customer Honda';
+
+      document.getElementById('nama_konsumen').innerHTML = namaKonsumen;
+    </script>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-W27QPH4S73"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W27QPH4S73');
+    </script>
   </body>
 </html>
