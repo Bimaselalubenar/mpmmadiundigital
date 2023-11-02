@@ -52,7 +52,7 @@
 }
 .form-submit-container02 {
   gap: var(--dl-space-space-halfunit);
-  width: 455px;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   margin-bottom: 0px;
@@ -269,6 +269,9 @@
   .form-submit-container {
     width: 100%;
   }
+  .form-submit-container01 {
+    width: 100%;
+  }
 }
 @media(max-width: 479px) {
   .form-submit-banner-container {
@@ -283,12 +286,17 @@
     flex-direction: column;
   }
   .form-submit-container01 {
+    width: 100%;
     flex-direction: column;
   }
   .form-submit-container02 {
     align-items: center;
   }
+  .form-submit-text {
+    font-size: 20px;
+  }
   .form-submit-text1 {
+    width: 100%;
     text-align: center;
   }
   .form-submit-container13 {
