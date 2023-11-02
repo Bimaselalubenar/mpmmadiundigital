@@ -1419,10 +1419,6 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
 }
-.promo-beat-text67 {
-  font-size: 40px;
-  font-weight: 700;
-}
 .promo-beat-container15 {
   flex: 0 0 auto;
   width: 100%;
@@ -1887,12 +1883,16 @@
     background-color: transparent;
   }
   .promo-beat-text65 {
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-style: normal;
     text-align: center;
     font-weight: 400;
     background-color: transparent;
+  }
+  .promo-beat-text67 {
+    font-size: 40px;
+    font-weight: 700;
   }
   .promo-beat-container15 {
     padding-left: var(--dl-space-space-oneandhalfunits);
