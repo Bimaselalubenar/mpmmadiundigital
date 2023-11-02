@@ -846,7 +846,7 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: auto;
+  max-width: 1000px;
   align-items: center;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
