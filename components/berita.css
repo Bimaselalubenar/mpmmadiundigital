@@ -1,0 +1,133 @@
+.berita-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.berita-berita {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.berita-text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  max-width: 535px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.berita-berita1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  overflow-x: scroll;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.berita-link {
+  display: contents;
+}
+.berita-image {
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.berita-link1 {
+  display: contents;
+}
+.berita-image1 {
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.berita-link2 {
+  display: contents;
+}
+.berita-image2 {
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.berita-video {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.berita-text3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  max-width: 535px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.berita-berita2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  overflow-x: scroll;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.berita-container2 {
+  display: contents;
+}
+.berita-container4 {
+  display: contents;
+}
+
+
+
+
+@media(max-width: 479px) {
+  .berita-container {
+    height: 100%;
+  }
+  .berita-berita {
+    height: auto;
+  }
+  .berita-text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 600;
+  }
+  .berita-image {
+    width: 400px;
+    height: 400px;
+  }
+  .berita-image1 {
+    width: 400px;
+    height: 400px;
+  }
+  .berita-image2 {
+    width: 400px;
+    height: 400px;
+  }
+  .berita-text3 {
+    color: rgb(0, 0, 0);
+  }
+}
