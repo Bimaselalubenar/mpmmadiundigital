@@ -26,7 +26,10 @@ module.exports = {
           "700": "#4CC366"
         },
         "foreground": "#000000",
-        "background": "#FFFFFF"
+        "background": "#FFFFFF",
+        "scheme": {
+          "black": "#0f1722ff"
+        }
       },
       "spacing": {
         "FiveUnits": "80px",
