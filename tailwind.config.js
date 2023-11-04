@@ -8,6 +8,9 @@ module.exports = {
           "500": "#14A9FF",
           "700": "#85DCFF"
         },
+        "scheme": {
+          "black": "#0f1722ff"
+        },
         "Danger": {
           "300": "#A22020",
           "500": "#BF2626",
@@ -26,10 +29,7 @@ module.exports = {
           "700": "#4CC366"
         },
         "foreground": "#000000",
-        "background": "#FFFFFF",
-        "scheme": {
-          "black": "#0f1722ff"
-        }
+        "background": "#FFFFFF"
       },
       "spacing": {
         "FiveUnits": "80px",
