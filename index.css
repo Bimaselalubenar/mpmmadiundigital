@@ -1118,7 +1118,7 @@
   object-fit: cover;
 }
 .whats-app-text {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 .whats-app-link1 {
@@ -1146,7 +1146,7 @@
   object-fit: cover;
 }
 .whats-app-text1 {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 .whats-app-navlink {
@@ -1174,7 +1174,7 @@
   object-fit: cover;
 }
 .whats-app-text2 {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 .whats-app-link2 {
@@ -1202,7 +1202,7 @@
   object-fit: cover;
 }
 .whats-app-text3 {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 .whats-app-link3 {
@@ -1314,7 +1314,7 @@
     height: 25px;
   }
   .whats-app-text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .whats-app-container3 {
     gap: var(--dl-space-space-halfunit);
@@ -1326,7 +1326,7 @@
     height: 25px;
   }
   .whats-app-text1 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .whats-app-container4 {
     gap: var(--dl-space-space-halfunit);
@@ -1338,7 +1338,7 @@
     height: 25px;
   }
   .whats-app-text2 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .whats-app-container5 {
     gap: var(--dl-space-space-halfunit);
@@ -1350,7 +1350,7 @@
     height: 25px;
   }
   .whats-app-text3 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .whats-app-container6 {
     gap: var(--dl-space-space-halfunit);
@@ -1368,6 +1368,7 @@
     gap: var(--dl-space-space-halfunit);
     width: 100%;
     height: 100%;
+    justify-content: center;
   }
   .whats-app-icon {
     fill: #ffffff;
