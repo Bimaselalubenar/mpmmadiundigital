@@ -31,7 +31,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .social-media-link {
@@ -153,7 +153,7 @@
   }
   .social-media-container3 {
     gap: var(--dl-space-space-halfunit);
-    width: auto;
+    width: 100%;
     justify-content: center;
     background-color: #c8c8c8;
   }
@@ -163,7 +163,7 @@
   }
   .social-media-container4 {
     gap: var(--dl-space-space-halfunit);
-    width: auto;
+    width: 100%;
     justify-content: center;
     background-color: #c8c8c8;
   }
@@ -173,7 +173,7 @@
   }
   .social-media-container5 {
     gap: var(--dl-space-space-halfunit);
-    width: auto;
+    width: 100%;
     justify-content: center;
     background-color: #c8c8c8;
   }
@@ -626,12 +626,13 @@
   flex: 0 0 auto;
   width: auto;
   display: flex;
+  padding: var(--dl-space-space-halfunit);
   flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
@@ -639,7 +640,7 @@
 }
 .whats-app-image {
   width: auto;
-  height: 41px;
+  height: 30px;
   object-fit: cover;
 }
 .whats-app-text {
@@ -653,12 +654,13 @@
   flex: 0 0 auto;
   width: auto;
   display: flex;
+  padding: var(--dl-space-space-halfunit);
   flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
@@ -666,7 +668,7 @@
 }
 .whats-app-image1 {
   width: auto;
-  height: 41px;
+  height: 30px;
   object-fit: cover;
 }
 .whats-app-text1 {
@@ -680,12 +682,13 @@
   flex: 0 0 auto;
   width: auto;
   display: flex;
+  padding: var(--dl-space-space-halfunit);
   flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
@@ -693,7 +696,7 @@
 }
 .whats-app-image2 {
   width: auto;
-  height: 41px;
+  height: 30px;
   object-fit: cover;
 }
 .whats-app-text2 {
@@ -707,12 +710,13 @@
   flex: 0 0 auto;
   width: auto;
   display: flex;
+  padding: var(--dl-space-space-halfunit);
   flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
@@ -720,7 +724,7 @@
 }
 .whats-app-image3 {
   width: auto;
-  height: 41px;
+  height: 30px;
   object-fit: cover;
 }
 .whats-app-text3 {
@@ -788,22 +792,22 @@
     display: flex;
   }
   .whats-app-container2 {
-    width: 170px;
+    width: auto;
     flex-wrap: wrap;
     flex-direction: column;
   }
   .whats-app-container3 {
-    width: 170px;
+    width: auto;
     flex-wrap: wrap;
     flex-direction: column;
   }
   .whats-app-container4 {
-    width: 170px;
+    width: auto;
     flex-wrap: wrap;
     flex-direction: column;
   }
   .whats-app-container5 {
-    width: 170px;
+    width: auto;
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -826,7 +830,7 @@
   }
   .whats-app-container2 {
     gap: var(--dl-space-space-halfunit);
-    width: 116px;
+    width: auto;
     height: auto;
     flex-wrap: wrap;
   }
@@ -838,7 +842,7 @@
   }
   .whats-app-container3 {
     gap: var(--dl-space-space-halfunit);
-    width: 116px;
+    width: auto;
     height: auto;
     padding: var(--dl-space-space-halfunit);
     flex-wrap: wrap;
@@ -851,7 +855,7 @@
   }
   .whats-app-container4 {
     gap: var(--dl-space-space-halfunit);
-    width: 116px;
+    width: auto;
     height: auto;
     padding: var(--dl-space-space-halfunit);
     flex-wrap: wrap;
@@ -864,7 +868,7 @@
   }
   .whats-app-container5 {
     gap: var(--dl-space-space-halfunit);
-    width: 116px;
+    width: auto;
     height: auto;
     padding: var(--dl-space-space-halfunit);
     flex-wrap: wrap;

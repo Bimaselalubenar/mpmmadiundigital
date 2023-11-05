@@ -84,6 +84,7 @@
   font-weight: 600;
 }
 .berita-berita2 {
+  gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
   height: auto;
