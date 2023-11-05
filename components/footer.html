@@ -50,6 +50,15 @@
 
     <!-- Google tag (gtag.js) -->
 
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
     <script
       async=""
       src="https://www.googletagmanager.com/gtag/js?id=G-W27QPH4S73"
@@ -86,6 +95,42 @@
             <div class="links-column">
               <span class="links-header"><span>Halaman</span></span>
               <a href="index.html" class="links-link"><span>Home</span></a>
+              <div data-thq="thq-dropdown" class="links-thq-dropdown list-item">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="links-dropdown-toggle"
+                >
+                  <span class="links-text">Promo</span>
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    class="links-dropdown-arrow"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="links-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul data-thq="thq-dropdown-list" class="links-dropdown-list">
+                  <li data-thq="thq-dropdown" class="links-dropdown list-item">
+                    <a href="promo-beat.html">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        class="links-dropdown-toggle1"
+                      >
+                        <span class="links-text1">Promo BeAT</span>
+                      </div>
+                    </a>
+                    <a href="promo-scoopy.html">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        class="links-dropdown-toggle2"
+                      >
+                        <span class="links-text2">Promo Scoopy</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="links-column1">
               <span class="links-header1"><span>Kontak</span></span>
@@ -177,5 +222,9 @@
 
       gtag('config', 'G-W27QPH4S73');
     </script>
+    <script
+      src="//code.tidio.co/smnqbckzktbvsqjdoxrhfic6ionsox8j.js"
+      async=""
+    ></script>
   </body>
 </html>

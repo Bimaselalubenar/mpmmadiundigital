@@ -1,0 +1,358 @@
+.form-simulasi-kredit-banner-container {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  max-width: 1000px;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.form-simulasi-kredit-container {
+  width: 100%;
+  display: flex;
+  box-shadow: 6px 6px 25px 0px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  flex-direction: column;
+}
+.form-simulasi-kredit-form {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  background-color: #f76500;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-simulasi-kredit-container01 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.form-simulasi-kredit-image {
+  width: 200px;
+  object-fit: cover;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.form-simulasi-kredit-container02 {
+  gap: var(--dl-space-space-halfunit);
+  width: 551px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 30px;
+  max-width: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.form-simulasi-kredit-text1 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 14px;
+  max-width: auto;
+  font-style: normal;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.form-simulasi-kredit-text2 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 16px;
+  max-width: auto;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.15;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.form-simulasi-kredit-container03 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-container04 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text3 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-textinput {
+  width: 100%;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.form-simulasi-kredit-container05 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.form-simulasi-kredit-container06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text4 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-container07 {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  background-color: #04a701;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-simulasi-kredit-icon {
+  fill: var(--dl-color-gray-white);
+  width: 46px;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-textinput1 {
+  width: 100%;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-simulasi-kredit-container08 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-container09 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text5 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-textinput2 {
+  width: 100%;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.form-simulasi-kredit-container10 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.form-simulasi-kredit-container11 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text6 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-select {
+  width: 100%;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.form-simulasi-kredit-container12 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-simulasi-kredit-text7 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-simulasi-kredit-select1 {
+  width: 100%;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.form-simulasi-kredit-container13 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.form-simulasi-kredit-text8 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.form-simulasi-kredit-button {
+  width: 100%;
+  cursor: pointer;
+  height: 46px;
+  padding: var(--dl-space-space-halfunit);
+  font-style: normal;
+  font-weight: 600;
+  border-radius: var(--dl-radius-radius-radius8);
+  letter-spacing: 1px;
+  background-color: #f4ff01;
+}
+.form-simulasi-kredit-image1 {
+  width: 445px;
+  height: 137px;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+
+@media(max-width: 991px) {
+  .form-simulasi-kredit-image1 {
+    width: 627px;
+    height: 193px;
+  }
+}
+@media(max-width: 767px) {
+  .form-simulasi-kredit-container {
+    width: 100%;
+  }
+  .form-simulasi-kredit-container01 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .form-simulasi-kredit-banner-container {
+    width: 100%;
+  }
+  .form-simulasi-kredit-container {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .form-simulasi-kredit-form {
+    gap: var(--dl-space-space-halfunit);
+    flex-direction: column;
+  }
+  .form-simulasi-kredit-container01 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .form-simulasi-kredit-container02 {
+    width: 100%;
+    align-items: center;
+  }
+  .form-simulasi-kredit-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .form-simulasi-kredit-text1 {
+    width: 100%;
+    text-align: center;
+  }
+  .form-simulasi-kredit-container13 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .form-simulasi-kredit-image1 {
+    width: 311px;
+    height: 96px;
+  }
+}
+
+.simulasi-kredit-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.simulasi-kredit-stnk {
+  flex: 0 0 auto;
+  display: flex;
+  max-width: 685px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.simulasi-kredit-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+@media(max-width: 479px) {
+  .simulasi-kredit-stnk {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
