@@ -43,28 +43,22 @@
   margin-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.form-simulasi-kredit-image {
-  width: 200px;
-  object-fit: cover;
-  border-color: #ffffff;
-  border-width: 4px;
-  border-radius: var(--dl-radius-radius-round);
-}
 .form-simulasi-kredit-container02 {
   gap: var(--dl-space-space-halfunit);
-  width: 551px;
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  max-width: 1000px;
+  align-items: center;
   margin-bottom: 0px;
   flex-direction: column;
 }
 .form-simulasi-kredit-text {
   color: rgb(255, 255, 255);
-  width: 100%;
+  width: auto;
   font-size: 30px;
   max-width: auto;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-family: "Inter";
   font-weight: 600;
   line-height: 1.15;
@@ -88,23 +82,6 @@
   text-transform: none;
   text-decoration: none;
 }
-.form-simulasi-kredit-text2 {
-  color: rgb(255, 255, 255);
-  width: auto;
-  font-size: 16px;
-  max-width: auto;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: left;
-  font-family: Inter;
-  font-weight: 600;
-  line-height: 1.15;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
 .form-simulasi-kredit-container03 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
@@ -119,7 +96,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-simulasi-kredit-text3 {
+.form-simulasi-kredit-text2 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -142,7 +119,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-simulasi-kredit-text4 {
+.form-simulasi-kredit-text3 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -186,7 +163,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-simulasi-kredit-text5 {
+.form-simulasi-kredit-text4 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -210,7 +187,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-simulasi-kredit-text6 {
+.form-simulasi-kredit-text5 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -227,7 +204,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-simulasi-kredit-text7 {
+.form-simulasi-kredit-text6 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -248,7 +225,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.form-simulasi-kredit-text8 {
+.form-simulasi-kredit-text7 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: 0px;
@@ -264,7 +241,7 @@
   letter-spacing: 1px;
   background-color: #f4ff01;
 }
-.form-simulasi-kredit-image1 {
+.form-simulasi-kredit-image {
   width: 445px;
   height: 137px;
   margin-top: var(--dl-space-space-twounits);
@@ -272,7 +249,7 @@
 }
 
 @media(max-width: 991px) {
-  .form-simulasi-kredit-image1 {
+  .form-simulasi-kredit-image {
     width: 627px;
     height: 193px;
   }
@@ -302,19 +279,10 @@
     flex-direction: column;
   }
   .form-simulasi-kredit-container02 {
-    width: 100%;
     align-items: center;
   }
   .form-simulasi-kredit-text {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-style: normal;
-    text-align: center;
-    font-family: Inter;
-    font-weight: 600;
-    line-height: 1.15;
-    text-transform: none;
-    text-decoration: none;
   }
   .form-simulasi-kredit-text1 {
     width: 100%;
@@ -324,7 +292,7 @@
     margin-top: var(--dl-space-space-halfunit);
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .form-simulasi-kredit-image1 {
+  .form-simulasi-kredit-image {
     width: 311px;
     height: 96px;
   }

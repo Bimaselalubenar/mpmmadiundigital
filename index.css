@@ -57,11 +57,11 @@
   font-weight: 700;
   line-height: 21px;
 }
+
 .announcement-root-class-name1 {
   flex: 0 0 auto;
   width: 100%;
 }
-
 @media(max-width: 991px) {
   .announcement-announcement {
     align-items: flex-start;
@@ -1042,7 +1042,6 @@
   max-width: 1200px;
   line-height: 21px;
 }
-
 
 
 
