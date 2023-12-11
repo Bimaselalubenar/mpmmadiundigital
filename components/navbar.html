@@ -1,339 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>MPM Madiun Digital</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="shortcut icon"
-      href="public/profile mpm madiun digital (insta).png"
-      type="icon/png"
-      sizes="32x32"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <!--This is the head section-->
-    <!-- <style> ... </style> -->
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-    <!-- Google tag (gtag.js) -->
-
-    <style>
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
-
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
-    </style>
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-W27QPH4S73"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-W27QPH4S73');
-    </script>
-  </head>
-  <body>
-    <link rel="stylesheet" href="../style.css" />
-    <div>
-      <link href="./navbar.css" rel="stylesheet" />
-      <nav class="navbar-navbar">
-        <div class="navbar-desktop">
-          <div class="navbar-main">
-            <a href="index.html" class="navbar-navlink">
-              <img
-                alt="LogoMPMDigital"
-                src="https://ik.imagekit.io/MPMFastTrack/Bank%20Data/Icon/Profile%20MPM%20MADIUN%20DIGITAL%20(abstract).svg?updatedAt=1697730725673"
-                class="navbar-finbest"
-              />
-            </a>
-            <div class="navbar-links">
-              <a href="index.html" class="navbar-link link">
-                <span>Home</span>
-              </a>
-              <div
-                data-thq="thq-dropdown"
-                class="navbar-thq-dropdown list-item"
-              >
-                <div
-                  data-thq="thq-dropdown-toggle"
-                  class="navbar-dropdown-toggle"
-                >
-                  <span class="navbar-text link">Promo</span>
-                  <div
-                    data-thq="thq-dropdown-arrow"
-                    class="navbar-dropdown-arrow"
-                  >
-                    <svg viewBox="0 0 1024 1024" class="navbar-icon">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <ul data-thq="thq-dropdown-list" class="navbar-dropdown-list">
-                  <li data-thq="thq-dropdown" class="navbar-dropdown list-item">
-                    <a href="promo-beat.html">
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        class="navbar-dropdown-toggle1"
-                      >
-                        <span class="navbar-text1">Promo BeAT</span>
-                      </div>
-                    </a>
-                    <a href="promo-scoopy.html">
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        class="navbar-dropdown-toggle2"
-                      >
-                        <span class="navbar-text2">Promo Scoopy</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li
-                    data-thq="thq-dropdown"
-                    class="navbar-dropdown1 list-item"
-                  ></li>
-                </ul>
+<div>
+  <link href="./navbar.css" rel="stylesheet" />
+  <nav class="navbar-navbar">
+    <div class="navbar-desktop">
+      <div class="navbar-main">
+        <a href="index.html" class="navbar-navlink">
+          <img
+            alt="LogoMPMDigital"
+            src="https://ik.imagekit.io/MPMFastTrack/Bank%20Data/Icon/Profile%20MPM%20MADIUN%20DIGITAL%20(abstract).svg?updatedAt=1697730725673"
+            class="navbar-finbest"
+          />
+        </a>
+        <div class="navbar-links">
+          <a href="index.html" class="navbar-link link"><span>Home</span></a>
+          <div data-thq="thq-dropdown" class="navbar-thq-dropdown list-item">
+            <div data-thq="thq-dropdown-toggle" class="navbar-dropdown-toggle">
+              <span class="navbar-text link">Promo</span>
+              <div data-thq="thq-dropdown-arrow" class="navbar-dropdown-arrow">
+                <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                  <path d="M426 726v-428l214 214z"></path>
+                </svg>
               </div>
             </div>
-          </div>
-          <div class="navbar-quick-actions">
-            <a
-              href="https://bit.ly/Whatsapp-MPMMadiunDigital"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="navbar-link1"
-            >
-              <div class="navbar-sign-up-btn">
-                <svg viewBox="0 0 1024 1024" class="navbar-icon2">
-                  <path
-                    d="M873 148.8c-95.8-96-223.2-148.8-359-148.8-279.6 0-507.2 227.6-507.2 507.4 0 89.4 23.4 176.8 67.8 253.6l-72 263 269-70.6c74.2 40.4 157.6 61.8 242.4 61.8h0.2c0 0 0 0 0 0 279.6 0 507.4-227.6 507.4-507.4 0-135.6-52.8-263-148.6-359zM514.2 929.6v0c-75.8 0-150-20.4-214.8-58.8l-15.4-9.2-159.6 41.8 42.6-155.6-10-16c-42.4-67-64.6-144.6-64.6-224.4 0-232.6 189.2-421.8 422-421.8 112.6 0 218.6 44 298.2 123.6 79.6 79.8 123.4 185.6 123.4 298.4-0.2 232.8-189.4 422-421.8 422zM745.4 613.6c-12.6-6.4-75-37-86.6-41.2s-20-6.4-28.6 6.4c-8.4 12.6-32.8 41.2-40.2 49.8-7.4 8.4-14.8 9.6-27.4 3.2s-53.6-19.8-102-63c-37.6-33.6-63.2-75.2-70.6-87.8s-0.8-19.6 5.6-25.8c5.8-5.6 12.6-14.8 19-22.2s8.4-12.6 12.6-21.2c4.2-8.4 2.2-15.8-1-22.2s-28.6-68.8-39-94.2c-10.2-24.8-20.8-21.4-28.6-21.8-7.4-0.4-15.8-0.4-24.2-0.4s-22.2 3.2-33.8 15.8c-11.6 12.6-44.4 43.4-44.4 105.8s45.4 122.6 51.8 131.2c6.4 8.4 89.4 136.6 216.6 191.4 30.2 13 53.8 20.8 72.2 26.8 30.4 9.6 58 8.2 79.8 5 24.4-3.6 75-30.6 85.6-60.2s10.6-55 7.4-60.2c-3-5.6-11.4-8.8-24.2-15.2z"
-                  ></path>
-                </svg>
-                <span class="navbar-link2 link"><span>WhatsApp</span></span>
-              </div>
-            </a>
-            <img
-              id="open-mobile-menu"
-              alt="pastedImage"
-              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/4a46e3f6-a2fb-4002-a0ce-bb246bd8698d/191f70d5-9a02-4b3a-a398-d21659aa57d0?org_if_sml=1195"
-              class="navbar-hamburger-menu"
-            />
+            <ul data-thq="thq-dropdown-list" class="navbar-dropdown-list">
+              <li data-thq="thq-dropdown" class="navbar-dropdown list-item">
+                <a href="promo-beat.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="navbar-dropdown-toggle1"
+                  >
+                    <span class="navbar-text1">Promo BeAT</span>
+                  </div>
+                </a>
+                <a href="promo-scoopy.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="navbar-dropdown-toggle2"
+                  >
+                    <span class="navbar-text2">Promo Scoopy</span>
+                  </div>
+                </a>
+              </li>
+              <li
+                data-thq="thq-dropdown"
+                class="navbar-dropdown1 list-item"
+              ></li>
+            </ul>
           </div>
         </div>
-        <div id="mobile-menu" class="navbar-mobile">
-          <div class="navbar-top">
-            <img
-              alt="LogoMPMDigital"
-              src="https://ik.imagekit.io/MPMFastTrack/Bank%20Data/Icon/Profile%20MPM%20MADIUN%20DIGITAL%20(abstract).svg?updatedAt=1697730725673"
-              class="navbar-image"
-            />
-            <svg
-              id="close-mobile-menu"
-              viewBox="0 0 1024 1024"
-              class="navbar-icon4"
-            >
+      </div>
+      <div class="navbar-quick-actions">
+        <a
+          href="https://bit.ly/Whatsapp-MPMMadiunDigital"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="navbar-link1"
+        >
+          <div class="navbar-sign-up-btn">
+            <svg viewBox="0 0 1024 1024" class="navbar-icon2">
               <path
-                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                d="M873 148.8c-95.8-96-223.2-148.8-359-148.8-279.6 0-507.2 227.6-507.2 507.4 0 89.4 23.4 176.8 67.8 253.6l-72 263 269-70.6c74.2 40.4 157.6 61.8 242.4 61.8h0.2c0 0 0 0 0 0 279.6 0 507.4-227.6 507.4-507.4 0-135.6-52.8-263-148.6-359zM514.2 929.6v0c-75.8 0-150-20.4-214.8-58.8l-15.4-9.2-159.6 41.8 42.6-155.6-10-16c-42.4-67-64.6-144.6-64.6-224.4 0-232.6 189.2-421.8 422-421.8 112.6 0 218.6 44 298.2 123.6 79.6 79.8 123.4 185.6 123.4 298.4-0.2 232.8-189.4 422-421.8 422zM745.4 613.6c-12.6-6.4-75-37-86.6-41.2s-20-6.4-28.6 6.4c-8.4 12.6-32.8 41.2-40.2 49.8-7.4 8.4-14.8 9.6-27.4 3.2s-53.6-19.8-102-63c-37.6-33.6-63.2-75.2-70.6-87.8s-0.8-19.6 5.6-25.8c5.8-5.6 12.6-14.8 19-22.2s8.4-12.6 12.6-21.2c4.2-8.4 2.2-15.8-1-22.2s-28.6-68.8-39-94.2c-10.2-24.8-20.8-21.4-28.6-21.8-7.4-0.4-15.8-0.4-24.2-0.4s-22.2 3.2-33.8 15.8c-11.6 12.6-44.4 43.4-44.4 105.8s45.4 122.6 51.8 131.2c6.4 8.4 89.4 136.6 216.6 191.4 30.2 13 53.8 20.8 72.2 26.8 30.4 9.6 58 8.2 79.8 5 24.4-3.6 75-30.6 85.6-60.2s10.6-55 7.4-60.2c-3-5.6-11.4-8.8-24.2-15.2z"
               ></path>
             </svg>
+            <span class="navbar-link2 link"><span>WhatsApp</span></span>
           </div>
-          <div class="links-links links-root-class-name">
-            <div class="links-column">
-              <span class="links-header"><span>Halaman</span></span>
-              <a href="index.html" class="links-link"><span>Home</span></a>
-              <div data-thq="thq-dropdown" class="links-thq-dropdown list-item">
-                <div
-                  data-thq="thq-dropdown-toggle"
-                  class="links-dropdown-toggle"
-                >
-                  <span class="links-text">Promo</span>
-                  <div
-                    data-thq="thq-dropdown-arrow"
-                    class="links-dropdown-arrow"
-                  >
-                    <svg viewBox="0 0 1024 1024" class="links-icon">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <ul data-thq="thq-dropdown-list" class="links-dropdown-list">
-                  <li data-thq="thq-dropdown" class="links-dropdown list-item">
-                    <a href="promo-beat.html">
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        class="links-dropdown-toggle1"
-                      >
-                        <span class="links-text1">Promo BeAT</span>
-                      </div>
-                    </a>
-                    <a href="promo-scoopy.html">
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        class="links-dropdown-toggle2"
-                      >
-                        <span class="links-text2">Promo Scoopy</span>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
+        </a>
+        <img
+          id="open-mobile-menu"
+          alt="pastedImage"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/4a46e3f6-a2fb-4002-a0ce-bb246bd8698d/191f70d5-9a02-4b3a-a398-d21659aa57d0?org_if_sml=1195"
+          class="navbar-hamburger-menu"
+        />
+      </div>
+    </div>
+    <div id="mobile-menu" class="navbar-mobile">
+      <div class="navbar-top">
+        <img
+          alt="LogoMPMDigital"
+          src="https://ik.imagekit.io/MPMFastTrack/Bank%20Data/Icon/Profile%20MPM%20MADIUN%20DIGITAL%20(abstract).svg?updatedAt=1697730725673"
+          class="navbar-image"
+        />
+        <svg
+          id="close-mobile-menu"
+          viewBox="0 0 1024 1024"
+          class="navbar-icon4"
+        >
+          <path
+            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+          ></path>
+        </svg>
+      </div>
+      <div class="links-links links-root-class-name">
+        <div class="links-column">
+          <span class="links-header"><span>Halaman</span></span>
+          <a href="index.html" class="links-link"><span>Home</span></a>
+          <div data-thq="thq-dropdown" class="links-thq-dropdown list-item">
+            <div data-thq="thq-dropdown-toggle" class="links-dropdown-toggle">
+              <span class="links-text">Promo</span>
+              <div data-thq="thq-dropdown-arrow" class="links-dropdown-arrow">
+                <svg viewBox="0 0 1024 1024" class="links-icon">
+                  <path d="M426 726v-428l214 214z"></path>
+                </svg>
               </div>
             </div>
-            <div class="links-column1">
-              <span class="links-header1"><span>Kontak</span></span>
-              <a
-                href="https://bit.ly/Instagram-MPMMadiunDigital"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="links-link1"
-              >
-                <span>Instagram</span>
-              </a>
-              <a
-                href="https://bit.ly/Facebook-MPMMadiunDigital"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="links-link2"
-              >
-                <span>Facebook</span>
-              </a>
-              <a
-                href="https://bit.ly/Whatsapp-MPMMadiunDigital"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="links-link3"
-              >
-                <span>WhatsApp</span>
-              </a>
-              <a
-                href="https://maps.app.goo.gl/JDKHrJcx4ZsuFzh29"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="links-link4"
-              >
-                <span>Lokasi dealer</span>
-              </a>
-              <a
-                href="https://bit.ly/GroupWA-MPMMadiunDigital"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="links-link5"
-              >
-                <span>Group WhatsApp</span>
-              </a>
-            </div>
-            <div class="links-container"></div>
+            <ul data-thq="thq-dropdown-list" class="links-dropdown-list">
+              <li data-thq="thq-dropdown" class="links-dropdown list-item">
+                <a href="promo-beat.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="links-dropdown-toggle1"
+                  >
+                    <span class="links-text1">Promo BeAT</span>
+                  </div>
+                </a>
+                <a href="promo-scoopy.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="links-dropdown-toggle2"
+                  >
+                    <span class="links-text2">Promo Scoopy</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div>
-          <div class="navbar-container1">
-            <script>
-              /*
-              Mobile menu - Code Embed
-              */
-
-              // Mobile menu
-              const mobileMenu = document.querySelector('#mobile-menu');
-
-              // Buttons
-              const closeButton = document.querySelector('#close-mobile-menu');
-              const openButton = document.querySelector('#open-mobile-menu');
-
-              if (mobileMenu && closeButton && openButton) {
-                // On openButton click, set the mobileMenu position left to -100vw
-                openButton.addEventListener('click', function () {
-                  mobileMenu.style.transform = 'translateX(0%)';
-                });
-
-                // On closeButton click, set the mobileMenu position to 0vw
-                closeButton.addEventListener('click', function () {
-                  mobileMenu.style.transform = 'translateX(100%)';
-                });
-              }
-            </script>
-          </div>
+        <div class="links-column1">
+          <span class="links-header1"><span>Kontak</span></span>
+          <a
+            href="https://bit.ly/Instagram-MPMMadiunDigital"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="links-link1"
+          >
+            <span>Instagram</span>
+          </a>
+          <a
+            href="https://bit.ly/Facebook-MPMMadiunDigital"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="links-link2"
+          >
+            <span>Facebook</span>
+          </a>
+          <a
+            href="https://bit.ly/Whatsapp-MPMMadiunDigital"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="links-link3"
+          >
+            <span>WhatsApp</span>
+          </a>
+          <a
+            href="https://maps.app.goo.gl/JDKHrJcx4ZsuFzh29"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="links-link4"
+          >
+            <span>Lokasi dealer</span>
+          </a>
+          <a
+            href="https://bit.ly/GroupWA-MPMMadiunDigital"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="links-link5"
+          >
+            <span>Group WhatsApp</span>
+          </a>
         </div>
-      </nav>
+        <div class="links-container"></div>
+      </div>
     </div>
-    <script
-      type="text/javascript"
-      src="https://www.googletagmanager.com/gtag/js?id=G-W27QPH4S73"
-      async=""
-    ></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-W27QPH4S73');
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script>
-      AOS.init({
-       duration: 1000
-      });
-    </script>
-    <script>
-      let url = window.location.search;
-      let urlParam = new URLSearchParams(url);
+    <div>
+      <div class="navbar-container1">
+        <script>
+          /*
+          Mobile menu - Code Embed
+          */
 
-      let namaKonsumen = urlParam.get('nama_konsumen') || 'Customer Honda';
+          // Mobile menu
+          const mobileMenu = document.querySelector('#mobile-menu');
 
-      document.getElementById('nama_konsumen').innerHTML = namaKonsumen;
-    </script>
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-W27QPH4S73"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+          // Buttons
+          const closeButton = document.querySelector('#close-mobile-menu');
+          const openButton = document.querySelector('#open-mobile-menu');
 
-      gtag('config', 'G-W27QPH4S73');
-    </script>
-    <script
-      src="//code.tidio.co/smnqbckzktbvsqjdoxrhfic6ionsox8j.js"
-      async=""
-    ></script>
-  </body>
-</html>
+          if (mobileMenu && closeButton && openButton) {
+            // On openButton click, set the mobileMenu position left to -100vw
+            openButton.addEventListener('click', function () {
+              mobileMenu.style.transform = 'translateX(0%)';
+            });
+
+            // On closeButton click, set the mobileMenu position to 0vw
+            closeButton.addEventListener('click', function () {
+              mobileMenu.style.transform = 'translateX(100%)';
+            });
+          }
+        </script>
+      </div>
+    </div>
+  </nav>
+</div>

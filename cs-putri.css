@@ -1013,7 +1013,7 @@
   }
 }
 
-.cs-tiara-container {
+.cs-putri-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -1025,7 +1025,7 @@
   background-repeat: repeat;
   background-position: center;
 }
-.cs-tiara-banner {
+.cs-putri-banner {
   width: 100%;
   height: auto;
   display: flex;
@@ -1039,16 +1039,14 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
-.cs-tiara-image {
+.cs-putri-image {
   width: 210px;
   height: 210px;
   object-fit: cover;
   flex-shrink: 0;
-  border-color: #ffffff;
-  border-width: 3px;
   border-radius: var(--dl-radius-radius-round);
 }
-.cs-tiara-container1 {
+.cs-putri-container1 {
   width: 100%;
   display: flex;
   box-shadow: 5px 5px 15px 0px #e7e1e1;
@@ -1070,29 +1068,29 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.cs-tiara-text {
+.cs-putri-text {
   font-size: 20px;
   text-align: center;
   font-family: Poppins;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.cs-tiara-text01 {
+.cs-putri-text01 {
   color: rgb(206, 120, 9);
   font-size: 18px;
   font-style: normal;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 600;
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text04 {
+.cs-putri-text04 {
   font-size: 16px;
   font-family: Poppins;
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.cs-tiara-menu {
+.cs-putri-menu {
   width: 100%;
   height: auto;
   display: flex;
@@ -1104,7 +1102,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.cs-tiara-text07 {
+.cs-putri-text07 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -1113,10 +1111,10 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.cs-tiara-link {
+.cs-putri-link {
   display: contents;
 }
-.cs-tiara-katalog {
+.cs-putri-katalog {
   width: 100%;
   cursor: pointer;
   height: 58px;
@@ -1137,19 +1135,19 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.cs-tiara-katalog:hover {
+.cs-putri-katalog:hover {
   transform: scale(110%);
   box-shadow: 5px 5px 10px 0px #b5b5b5;
   border-width: 2px;
   background-color: #ffffff;
 }
-.cs-tiara-icon {
+.cs-putri-icon {
   fill: rgb(206, 120, 9);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text08 {
+.cs-putri-text08 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1158,10 +1156,10 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.cs-tiara-link1 {
+.cs-putri-link1 {
   display: contents;
 }
-.cs-tiara-katalog1 {
+.cs-putri-katalog1 {
   width: 100%;
   cursor: pointer;
   height: 58px;
@@ -1182,19 +1180,19 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.cs-tiara-katalog1:hover {
+.cs-putri-katalog1:hover {
   transform: scale(110%);
   box-shadow: 5px 5px 10px 0px #b5b5b5;
   border-width: 2px;
   background-color: #ffffff;
 }
-.cs-tiara-icon2 {
+.cs-putri-icon2 {
   fill: rgb(206, 120, 9);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text11 {
+.cs-putri-text11 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1203,10 +1201,10 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.cs-tiara-link2 {
+.cs-putri-link2 {
   display: contents;
 }
-.cs-tiara-katalog2 {
+.cs-putri-katalog2 {
   width: 100%;
   cursor: pointer;
   height: 58px;
@@ -1227,19 +1225,19 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.cs-tiara-katalog2:hover {
+.cs-putri-katalog2:hover {
   transform: scale(110%);
   box-shadow: 5px 5px 10px 0px #b5b5b5;
   border-width: 2px;
   background-color: #ffffff;
 }
-.cs-tiara-icon4 {
+.cs-putri-icon4 {
   fill: rgb(206, 120, 9);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text14 {
+.cs-putri-text14 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1248,7 +1246,7 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.cs-tiara-text17 {
+.cs-putri-text17 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -1261,10 +1259,10 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.cs-tiara-link3 {
+.cs-putri-link3 {
   display: contents;
 }
-.cs-tiara-katalog3 {
+.cs-putri-katalog3 {
   width: 100%;
   cursor: pointer;
   height: 58px;
@@ -1285,19 +1283,19 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.cs-tiara-katalog3:hover {
+.cs-putri-katalog3:hover {
   transform: scale(110%);
   box-shadow: 5px 5px 10px 0px #b5b5b5;
   border-width: 2px;
   background-color: #ffffff;
 }
-.cs-tiara-image1 {
+.cs-putri-image1 {
   fill: rgb(206, 120, 9);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text18 {
+.cs-putri-text18 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1306,10 +1304,10 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.cs-tiara-link4 {
+.cs-putri-link4 {
   display: contents;
 }
-.cs-tiara-katalog4 {
+.cs-putri-katalog4 {
   width: 100%;
   cursor: pointer;
   height: 58px;
@@ -1330,19 +1328,19 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.cs-tiara-katalog4:hover {
+.cs-putri-katalog4:hover {
   transform: scale(110%);
   box-shadow: 5px 5px 10px 0px #b5b5b5;
   border-width: 2px;
   background-color: #ffffff;
 }
-.cs-tiara-image2 {
+.cs-putri-image2 {
   fill: rgb(206, 120, 9);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.cs-tiara-text21 {
+.cs-putri-text21 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1351,20 +1349,20 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.cs-tiara-stnk {
+.cs-putri-stnk {
   flex: 0 0 auto;
   display: flex;
   max-width: 685px;
   align-items: flex-start;
   flex-direction: column;
 }
-.cs-tiara-image3 {
+.cs-putri-image3 {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.cs-tiara-promo {
+.cs-putri-promo {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
@@ -1373,7 +1371,7 @@
   align-items: center;
   flex-direction: column;
 }
-.cs-tiara-text24 {
+.cs-putri-text24 {
   color: rgb(206, 120, 9);
   font-size: 16px;
   font-style: normal;
@@ -1382,7 +1380,7 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.cs-tiara-container2 {
+.cs-putri-container2 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1391,7 +1389,7 @@
   align-items: center;
   flex-direction: row;
 }
-.cs-tiara-promo2 {
+.cs-putri-promo2 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-self: flex-start;
@@ -1402,13 +1400,13 @@
   flex-direction: row;
   background-color: #ffffff;
 }
-.cs-tiara-image4 {
+.cs-putri-image4 {
   width: 249px;
   height: 249px;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.cs-tiara-container3 {
+.cs-putri-container3 {
   width: 242px;
   display: flex;
   align-self: stretch;
@@ -1417,7 +1415,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.cs-tiara-text25 {
+.cs-putri-text25 {
   color: var(--dl-color-gray-black);
   font-size: 16px;
   font-style: normal;
@@ -1426,7 +1424,7 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.cs-tiara-link5 {
+.cs-putri-link5 {
   color: var(--dl-color-scheme-darkblue);
   cursor: pointer;
   padding: var(--dl-space-space-halfunit);
@@ -1441,11 +1439,11 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.cs-tiara-link5:hover {
+.cs-putri-link5:hover {
   transform: scale(103%);
   background-color: rgb(206, 120, 9);
 }
-.cs-tiara-container4 {
+.cs-putri-container4 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1455,7 +1453,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.cs-tiara-text30 {
+.cs-putri-text30 {
   color: var(--dl-color-gray-black);
   font-size: 12px;
   align-self: flex-start;
@@ -1464,7 +1462,7 @@
   font-family: Poppins;
   font-weight: 300;
 }
-.cs-tiara-promo1 {
+.cs-putri-promo1 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   align-self: flex-start;
@@ -1475,13 +1473,13 @@
   flex-direction: row;
   background-color: #ffffff;
 }
-.cs-tiara-image5 {
+.cs-putri-image5 {
   width: 249px;
   height: 249px;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.cs-tiara-container5 {
+.cs-putri-container5 {
   width: 242px;
   display: flex;
   align-self: stretch;
@@ -1490,7 +1488,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.cs-tiara-text31 {
+.cs-putri-text31 {
   color: var(--dl-color-gray-black);
   font-size: 16px;
   font-style: normal;
@@ -1499,7 +1497,7 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.cs-tiara-link6 {
+.cs-putri-link6 {
   color: var(--dl-color-scheme-darkblue);
   cursor: pointer;
   padding: var(--dl-space-space-halfunit);
@@ -1514,11 +1512,11 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.cs-tiara-link6:hover {
+.cs-putri-link6:hover {
   transform: scale(103%);
   background-color: rgb(206, 120, 9);
 }
-.cs-tiara-container6 {
+.cs-putri-container6 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1528,7 +1526,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.cs-tiara-text32 {
+.cs-putri-text32 {
   color: var(--dl-color-gray-black);
   font-size: 12px;
   align-self: flex-start;
@@ -1537,7 +1535,7 @@
   font-family: Poppins;
   font-weight: 300;
 }
-.cs-tiara-navlink {
+.cs-putri-navlink {
   color: var(--dl-color-scheme-darkblue);
   cursor: pointer;
   padding: var(--dl-space-space-halfunit);
@@ -1552,169 +1550,169 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.cs-tiara-navlink:hover {
+.cs-putri-navlink:hover {
   transform: scale(103%);
   background-color: rgb(206, 120, 9);
 }
 @media(max-width: 991px) {
-  .cs-tiara-banner {
+  .cs-putri-banner {
     flex-direction: column;
   }
-  .cs-tiara-image {
+  .cs-putri-image {
     width: var(--dl-size-size-xxlarge);
     height: var(--dl-size-size-xxlarge);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .cs-tiara-container1 {
+  .cs-putri-container1 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .cs-tiara-text01 {
+  .cs-putri-text01 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-text04 {
+  .cs-putri-text04 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-katalog {
+  .cs-putri-katalog {
     justify-content: flex-start;
   }
-  .cs-tiara-text08 {
+  .cs-putri-text08 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-katalog1 {
+  .cs-putri-katalog1 {
     justify-content: flex-start;
   }
-  .cs-tiara-text11 {
+  .cs-putri-text11 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-katalog2 {
+  .cs-putri-katalog2 {
     justify-content: flex-start;
   }
-  .cs-tiara-text14 {
+  .cs-putri-text14 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-katalog3 {
+  .cs-putri-katalog3 {
     justify-content: flex-start;
   }
-  .cs-tiara-text18 {
+  .cs-putri-text18 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .cs-tiara-katalog4 {
+  .cs-putri-katalog4 {
     justify-content: flex-start;
   }
-  .cs-tiara-text21 {
+  .cs-putri-text21 {
     text-align: center;
     margin-left: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .cs-tiara-banner {
+  .cs-putri-banner {
     align-items: center;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .cs-tiara-image {
+  .cs-putri-image {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .cs-tiara-container1 {
+  .cs-putri-container1 {
     margin-left: 0px;
   }
-  .cs-tiara-text01 {
+  .cs-putri-text01 {
     font-size: 18px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-text04 {
+  .cs-putri-text04 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-katalog {
+  .cs-putri-katalog {
     justify-content: flex-start;
   }
-  .cs-tiara-text08 {
+  .cs-putri-text08 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-katalog1 {
+  .cs-putri-katalog1 {
     justify-content: flex-start;
   }
-  .cs-tiara-text11 {
+  .cs-putri-text11 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-katalog2 {
+  .cs-putri-katalog2 {
     justify-content: flex-start;
   }
-  .cs-tiara-text14 {
+  .cs-putri-text14 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-katalog3 {
+  .cs-putri-katalog3 {
     justify-content: flex-start;
   }
-  .cs-tiara-text18 {
+  .cs-putri-text18 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-katalog4 {
+  .cs-putri-katalog4 {
     justify-content: flex-start;
   }
-  .cs-tiara-text21 {
+  .cs-putri-text21 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .cs-tiara-promo {
+  .cs-putri-promo {
     padding-left: 32px;
     padding-right: 32px;
     flex-direction: column;
   }
-  .cs-tiara-text24 {
+  .cs-putri-text24 {
     font-size: 16px;
     text-align: center;
     margin-right: 0px;
   }
-  .cs-tiara-container3 {
+  .cs-putri-container3 {
     margin-left: var(--dl-space-space-unit);
   }
-  .cs-tiara-text25 {
+  .cs-putri-text25 {
     font-size: 1rem;
     text-align: center;
     margin-right: 0px;
   }
-  .cs-tiara-text30 {
+  .cs-putri-text30 {
     text-align: center;
     margin-right: 0px;
   }
-  .cs-tiara-container5 {
+  .cs-putri-container5 {
     margin-left: var(--dl-space-space-unit);
   }
-  .cs-tiara-text31 {
+  .cs-putri-text31 {
     font-size: 1rem;
     text-align: left;
     margin-right: 0px;
   }
-  .cs-tiara-text32 {
+  .cs-putri-text32 {
     font-size: 0.5rem;
     text-align: center;
     margin-right: 0px;
   }
 }
 @media(max-width: 479px) {
-  .cs-tiara-banner {
+  .cs-putri-banner {
     width: 100%;
     height: auto;
     padding-top: var(--dl-space-space-unit);
@@ -1723,42 +1721,42 @@
     padding-bottom: var(--dl-space-space-unit);
     justify-content: flex-start;
   }
-  .cs-tiara-image {
+  .cs-putri-image {
     width: var(--dl-size-size-xlarge);
     height: var(--dl-size-size-xlarge);
     box-shadow: 5px 5px 10px 0px #d4d4d4;
     border-color: #ffffff;
     border-width: 4px;
   }
-  .cs-tiara-container1 {
+  .cs-putri-container1 {
     margin-left: 0px;
     margin-bottom: 0px;
     justify-content: flex-start;
   }
-  .cs-tiara-text {
+  .cs-putri-text {
     font-family: Inter;
   }
-  .cs-tiara-text01 {
+  .cs-putri-text01 {
     color: rgb(206, 120, 9);
     font-size: 18px;
     font-family: Inter;
   }
-  .cs-tiara-text04 {
+  .cs-putri-text04 {
     font-size: 16px;
     font-family: Inter;
   }
-  .cs-tiara-menu {
+  .cs-putri-menu {
     width: 100%;
     height: auto;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: var(--dl-space-space-twounits);
   }
-  .cs-tiara-text07 {
+  .cs-putri-text07 {
     color: rgb(206, 120, 9);
     font-family: Inter;
   }
-  .cs-tiara-katalog {
+  .cs-putri-katalog {
     width: 100%;
     height: auto;
     align-items: center;
@@ -1770,10 +1768,10 @@
     padding-bottom: var(--dl-space-space-halfunit);
     justify-content: flex-start;
   }
-  .cs-tiara-icon {
+  .cs-putri-icon {
     fill: rgb(206, 120, 9);
   }
-  .cs-tiara-text08 {
+  .cs-putri-text08 {
     font-size: 16px;
     font-style: normal;
     font-family: Inter;
@@ -1782,7 +1780,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .cs-tiara-katalog1 {
+  .cs-putri-katalog1 {
     width: 100%;
     height: auto;
     align-items: center;
@@ -1794,7 +1792,7 @@
     padding-bottom: var(--dl-space-space-halfunit);
     justify-content: flex-start;
   }
-  .cs-tiara-text11 {
+  .cs-putri-text11 {
     font-size: 16px;
     font-style: normal;
     font-family: Inter;
@@ -1803,7 +1801,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .cs-tiara-katalog2 {
+  .cs-putri-katalog2 {
     width: 100%;
     height: auto;
     align-items: center;
@@ -1815,7 +1813,7 @@
     padding-bottom: var(--dl-space-space-halfunit);
     justify-content: flex-start;
   }
-  .cs-tiara-text14 {
+  .cs-putri-text14 {
     font-size: 16px;
     font-style: normal;
     font-family: Inter;
@@ -1824,11 +1822,11 @@
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .cs-tiara-text17 {
+  .cs-putri-text17 {
     color: rgb(206, 120, 9);
     font-family: Inter;
   }
-  .cs-tiara-katalog3 {
+  .cs-putri-katalog3 {
     width: 100%;
     height: auto;
     align-items: center;
@@ -1840,29 +1838,7 @@
     padding-bottom: var(--dl-space-space-halfunit);
     justify-content: flex-start;
   }
-  .cs-tiara-text18 {
-    color: rgb(206, 120, 9);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Inter;
-    font-weight: 500;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .cs-tiara-katalog4 {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    margin-left: 0px;
-    padding-top: var(--dl-space-space-halfunit);
-    margin-right: 0px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-halfunit);
-    justify-content: flex-start;
-  }
-  .cs-tiara-text21 {
+  .cs-putri-text18 {
     color: rgb(206, 120, 9);
     font-size: 16px;
     font-style: normal;
@@ -1872,7 +1848,29 @@
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .cs-tiara-promo {
+  .cs-putri-katalog4 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: flex-start;
+  }
+  .cs-putri-text21 {
+    color: rgb(206, 120, 9);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .cs-putri-promo {
     height: auto;
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
@@ -1882,27 +1880,27 @@
     justify-content: center;
     background-color: transparent;
   }
-  .cs-tiara-text24 {
+  .cs-putri-text24 {
     font-size: 16px;
     text-align: center;
   }
-  .cs-tiara-container2 {
+  .cs-putri-container2 {
     height: 100%;
   }
-  .cs-tiara-promo2 {
+  .cs-putri-promo2 {
     height: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
   }
-  .cs-tiara-container3 {
+  .cs-putri-container3 {
     width: 100%;
     height: 100%;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .cs-tiara-text25 {
+  .cs-putri-text25 {
     color: var(--dl-color-gray-black);
     font-size: 16px;
     font-style: normal;
@@ -1910,23 +1908,23 @@
     font-family: Poppins;
     font-weight: 600;
   }
-  .cs-tiara-text30 {
+  .cs-putri-text30 {
     font-size: 12px;
     text-align: center;
   }
-  .cs-tiara-promo1 {
+  .cs-putri-promo1 {
     height: auto;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
   }
-  .cs-tiara-container5 {
+  .cs-putri-container5 {
     width: 100%;
     height: 100%;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .cs-tiara-text31 {
+  .cs-putri-text31 {
     color: var(--dl-color-gray-black);
     font-size: 16px;
     font-style: normal;
@@ -1934,7 +1932,7 @@
     font-family: Poppins;
     font-weight: 600;
   }
-  .cs-tiara-text32 {
+  .cs-putri-text32 {
     font-size: 12px;
     text-align: center;
   }

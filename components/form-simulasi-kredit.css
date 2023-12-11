@@ -158,6 +158,13 @@
   flex-direction: column;
 }
 .form-simulasi-kredit-container09 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.form-simulasi-kredit-container10 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -168,18 +175,11 @@
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-simulasi-kredit-textinput2 {
+.form-simulasi-kredit-select {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
-}
-.form-simulasi-kredit-container10 {
-  gap: var(--dl-space-space-unit);
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
 }
 .form-simulasi-kredit-container11 {
   width: 100%;
@@ -192,30 +192,13 @@
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-simulasi-kredit-select {
-  width: 100%;
-  height: 46px;
-  padding: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius8);
-}
-.form-simulasi-kredit-container12 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.form-simulasi-kredit-text6 {
-  color: #ffffff;
-  font-size: 14px;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
 .form-simulasi-kredit-select1 {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
 }
-.form-simulasi-kredit-container13 {
+.form-simulasi-kredit-container12 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: flex-start;
@@ -225,7 +208,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.form-simulasi-kredit-text7 {
+.form-simulasi-kredit-text6 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: 0px;
@@ -247,6 +230,8 @@
   margin-top: var(--dl-space-space-twounits);
   object-fit: cover;
 }
+
+
 
 @media(max-width: 991px) {
   .form-simulasi-kredit-image {
@@ -288,7 +273,7 @@
     width: 100%;
     text-align: center;
   }
-  .form-simulasi-kredit-container13 {
+  .form-simulasi-kredit-container12 {
     margin-top: var(--dl-space-space-halfunit);
     margin-bottom: var(--dl-space-space-halfunit);
   }
