@@ -1452,42 +1452,9 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: flex-start;
 }
-.scoopy-slider {
-  width: 100%;
-  height: 397px;
-  display: inline-block;
-  box-shadow: 5px 5px 15px 0px #d4d4d4;
-  border-radius: 10px;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.scoopy-slider-slide {
-  width: 100%;
-  display: flex;
-  background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/product-draft/lifestyle/ahm-update-website-lifestyle-photo-1920x800-4-1-26102023-031705.jpg');
-  background-position: center;
-}
-.scoopy-slider-slide01 {
-  width: 100%;
-  display: flex;
-  background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/product-draft/lifestyle/ahm-update-website-lifestyle-photo-1920x800-4-1-26102023-031705.jpg');
-  background-position: center;
-}
-.scoopy-slider-pagination {
-  display: block;
-}
-.scoopy-slider-pagination-bullet {
-  height: 15px;
-}
-.scoopy-slider-pagination-bullet01 {
-  height: 15px;
-}
-.scoopy-slider-button-prev {
-  display: none;
-}
-.scoopy-slider-button-next {
-  display: none;
+.scoopy-image1 {
+  width: 200px;
+  object-fit: cover;
 }
 .scoopy-text22 {
   color: rgb(0, 0, 0);
@@ -1501,68 +1468,75 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.scoopy-slider1 {
+.scoopy-slider {
   width: 328px;
   height: 330px;
   display: inline-block;
 }
-.scoopy-slider-slide02 {
+.scoopy-slider-slide {
   display: flex;
   background-size: cover;
   background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide03 {
-  display: flex ;
+.scoopy-slider-slide1 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-white-515x504px-25102023-055345.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide04 {
-  display: flex ;
+.scoopy-slider-slide2 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-red-515x504px-25102023-055354.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide05 {
-  display: flex ;
+.scoopy-slider-slide3 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide06 {
-  display: flex ;
+.scoopy-slider-slide4 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/fashion-blue-515x504px-25102023-055411.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide07 {
-  display: flex ;
+.scoopy-slider-slide5 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/fashion-brown-515x504px-25102023-055418.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide08 {
-  display: flex ;
+.scoopy-slider-slide6 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/sporty-grey-515x504px-25102023-055443.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-slide09 {
-  display: flex ;
+.scoopy-slider-slide7 {
+  display: flex;
   background-size: cover;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/sporty-red-515x504px-25102023-055457.png');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-black-515x504px-25102023-055339.png');
+  background-repeat: no-repeat;
   background-position: center;
 }
-.scoopy-slider-pagination1 {
+.scoopy-slider-pagination {
   height: 8px;
   display: block;
 }
-.scoopy-slider-button-prev1 {
+.scoopy-slider-button-prev {
   display: none;
 }
-.scoopy-slider-button-next1 {
+.scoopy-slider-button-next {
   display: none;
 }
 .scoopy-section1 {
@@ -1578,7 +1552,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.scoopy-image1 {
+.scoopy-image2 {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1591,7 +1565,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.scoopy-image2 {
+.scoopy-image3 {
   width: 100%;
   height: auto;
   margin-top: var(--dl-space-space-unit);
@@ -1615,7 +1589,7 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.scoopy-image3 {
+.scoopy-image4 {
   width: 445px;
   height: 137px;
   object-fit: cover;
@@ -1644,8 +1618,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .scoopy-slider {
-    height: 365px;
+  .scoopy-image1 {
+    width: 100%;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .scoopy-text22 {
     width: 100%;
@@ -1660,7 +1636,7 @@
     padding-top: var(--dl-space-space-unit);
     flex-direction: row;
   }
-  .scoopy-image1 {
+  .scoopy-image2 {
     width: 100%;
     height: auto;
   }
@@ -1670,7 +1646,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .scoopy-image3 {
+  .scoopy-image4 {
     width: 627px;
     height: 193px;
   }
@@ -1706,9 +1682,6 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .scoopy-slider {
-    height: 282px;
-  }
   .scoopy-text22 {
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -1723,7 +1696,7 @@
   .scoopy-section1 {
     gap: 0;
   }
-  .scoopy-image1 {
+  .scoopy-image2 {
     width: 100%;
   }
 }
@@ -1809,9 +1782,6 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .scoopy-slider {
-    height: 160px;
-  }
   .scoopy-text22 {
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -1823,12 +1793,67 @@
     text-transform: capitalize;
     text-decoration: none;
   }
-  .scoopy-slider1 {
+  .scoopy-slider {
     width: 100%;
-    height: 363px;
+    height: 349px;
   }
-  .scoopy-slider-slide02 {
+  .scoopy-slider-slide {
     width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .scoopy-slider-slide1 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-white-515x504px-25102023-055345.png');
+  }
+  .scoopy-slider-slide2 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-red-515x504px-25102023-055354.png');
+  }
+  .scoopy-slider-slide3 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
+  }
+  .scoopy-slider-slide4 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/fashion-blue-515x504px-25102023-055411.png');
+  }
+  .scoopy-slider-slide5 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/fashion-brown-515x504px-25102023-055418.png');
+  }
+  .scoopy-slider-slide6 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/sporty-grey-515x504px-25102023-055443.png');
+  }
+  .scoopy-slider-slide7 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/sporty-red-515x504px-25102023-055457.png');
+  }
+  .scoopy-slider-pagination {
+    height: var(--dl-size-size-xsmall);
   }
   .scoopy-section1 {
     gap: var(--dl-space-space-fourunits);
@@ -1837,7 +1862,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .scoopy-image1 {
+  .scoopy-image2 {
     width: 100%;
     height: auto;
   }
@@ -1849,7 +1874,7 @@
     padding-top: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .scoopy-image3 {
+  .scoopy-image4 {
     width: 311px;
     height: 96px;
   }
