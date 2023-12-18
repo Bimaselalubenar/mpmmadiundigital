@@ -12,19 +12,6 @@
 .otr-text {
   color: rgb(0, 0, 0);
   width: 100%;
-  font-size: 18px;
-  max-width: 1000px;
-  text-align: center;
-  font-weight: 400;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.otr-text03 {
-  color: rgb(0, 0, 0);
-  width: 100%;
   font-size: 25px;
   max-width: 1000px;
   font-style: normal;
@@ -53,7 +40,7 @@
   justify-content: center;
   background-color: #ff0101;
 }
-.otr-text07 {
+.otr-text4 {
   color: #ffffff;
   width: auto;
   font-size: 10px;
@@ -71,7 +58,7 @@
   align-self: flex-start;
 }
 .otr-root-class-name1 {
-  width: auto;
+  width: 100%;
   align-self: flex-start;
 }
 @media(max-width: 991px) {
@@ -82,14 +69,14 @@
     justify-content: center;
   }
   .otr-text {
-    padding: 0px;
+    font-size: 25px;
   }
   .otr-root-class-name {
     width: auto;
     align-self: flex-start;
   }
   .otr-root-class-name1 {
-    width: auto;
+    width: 100%;
     align-self: flex-start;
   }
 }
@@ -100,9 +87,7 @@
     justify-content: center;
   }
   .otr-text {
-    padding: 0px;
-  }
-  .otr-text03 {
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
   }
@@ -111,7 +96,7 @@
     align-self: center;
   }
   .otr-root-class-name1 {
-    width: auto;
+    width: 100%;
     align-self: center;
   }
 }
@@ -123,35 +108,24 @@
   }
   .otr-text {
     color: rgb(0, 0, 0);
-    padding: 0px;
-    font-size: 18px;
-    font-style: normal;
-    text-align: center;
-    font-weight: 400;
-    background-color: transparent;
-  }
-  .otr-text03 {
-    color: rgb(0, 0, 0);
     padding: var(--dl-space-space-halfunit);
-    font-size: 18px;
+    font-size: 25px;
     font-style: normal;
     text-align: center;
     font-weight: 700;
     background-color: transparent;
   }
-  .otr-text04 {
-    font-size: 30px;
+  .otr-text1 {
     font-weight: 700;
   }
-  .otr-text05 {
-    font-size: 30px;
+  .otr-text2 {
     font-style: normal;
     font-weight: 700;
   }
-  .otr-text06 {
+  .otr-text3 {
     font-style: normal;
   }
-  .otr-text07 {
+  .otr-text4 {
     color: #ffffff;
     font-size: 10px;
     font-style: normal;
@@ -164,7 +138,7 @@
     align-self: center;
   }
   .otr-root-class-name1 {
-    width: auto;
+    width: 100%;
     align-self: center;
   }
 }
