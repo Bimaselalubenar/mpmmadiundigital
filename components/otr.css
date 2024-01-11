@@ -1,11 +1,13 @@
 .otr-container {
   gap: var(--dl-space-space-halfunit);
+  width: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
   position: relative;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
 }
@@ -25,22 +27,16 @@
 }
 .otr-container1 {
   gap: var(--dl-space-space-unit);
-  left: 0px;
-  right: 0px;
   width: 232px;
-  bottom: -14px;
-  margin: auto;
   display: flex;
   padding: var(--dl-space-space-halfunit);
-  position: absolute;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
-  margin-right: auto;
   border-radius: var(--dl-radius-radius-radius8);
   justify-content: center;
   background-color: #ff0101;
 }
-.otr-text4 {
+.otr-text1 {
   color: #ffffff;
   width: auto;
   font-size: 10px;
@@ -59,7 +55,12 @@
 }
 .otr-root-class-name1 {
   width: 100%;
-  align-self: flex-start;
+}
+.otr-root-class-name2 {
+  width: 100%;
+}
+.otr-root-class-name3 {
+  width: 100%;
 }
 @media(max-width: 991px) {
   .otr-container {
@@ -73,10 +74,6 @@
   }
   .otr-root-class-name {
     width: auto;
-    align-self: flex-start;
-  }
-  .otr-root-class-name1 {
-    width: 100%;
     align-self: flex-start;
   }
 }
@@ -95,14 +92,11 @@
     width: auto;
     align-self: center;
   }
-  .otr-root-class-name1 {
-    width: 100%;
-    align-self: center;
-  }
 }
 @media(max-width: 479px) {
   .otr-container {
     gap: var(--dl-space-space-halfunit);
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -116,17 +110,7 @@
     background-color: transparent;
   }
   .otr-text1 {
-    font-weight: 700;
-  }
-  .otr-text2 {
-    font-style: normal;
-    font-weight: 700;
-  }
-  .otr-text3 {
-    font-style: normal;
-  }
-  .otr-text4 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-size: 10px;
     font-style: normal;
     text-align: center;
@@ -135,10 +119,6 @@
   }
   .otr-root-class-name {
     width: auto;
-    align-self: center;
-  }
-  .otr-root-class-name1 {
-    width: 100%;
     align-self: center;
   }
 }
