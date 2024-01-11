@@ -1903,7 +1903,7 @@
 }
 .beat-slider-pagination2 {
   height: 8px;
-  display: block;
+  display: none;
 }
 .beat-slider-button-prev1 {
   display: none;
