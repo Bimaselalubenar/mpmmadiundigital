@@ -404,19 +404,17 @@
   gap: 0;
   fill: #595959;
   color: #595959;
-  width: 177px;
+  width: 206px;
   display: inline-flex;
-  padding: 0px;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-halfunit);
+  padding-top: 0px;
+  padding-left: 0px;
   border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-halfunit);
+  padding-right: 0px;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: 0px;
   justify-content: flex-start;
-  text-decoration: none;
 }
 .navbar-dropdown-toggle1:hover {
   fill: #fff;
@@ -435,6 +433,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
+  text-decoration: none;
 }
 .navbar-container:hover {
   background-color: #e3e3e3;
@@ -482,6 +481,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
+  text-decoration: none;
 }
 .navbar-container1:hover {
   background-color: #e3e3e3;
@@ -529,6 +529,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
+  text-decoration: none;
 }
 .navbar-container2:hover {
   background-color: #e3e3e3;
@@ -802,7 +803,6 @@
 @media(max-width: 479px) {
   .otr-container {
     gap: var(--dl-space-space-halfunit);
-    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -986,7 +986,7 @@
   text-align: left;
   font-family: Poppins;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 0px;
 }
 .promo-container {
   gap: var(--dl-space-space-unit);
@@ -995,10 +995,10 @@
   align-self: flex-start;
   overflow-x: scroll;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-twounits);
 }
 .promo-link {
   color: var(--dl-color-scheme-darkblue);

@@ -96,7 +96,6 @@
 @media(max-width: 479px) {
   .otr-container {
     gap: var(--dl-space-space-halfunit);
-    width: 100%;
     align-items: center;
     justify-content: center;
   }

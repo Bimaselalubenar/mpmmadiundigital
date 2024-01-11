@@ -1,4 +1,4 @@
-.produk-materi-container {
+.produk-motor-container {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: 209px;
@@ -11,7 +11,7 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.produk-materi-image {
+.produk-motor-image {
   width: 100%;
   cursor: pointer;
   height: auto;
@@ -19,13 +19,13 @@
   transition: 0.5s;
   border-radius: var(--dl-radius-radius-radius8);
 }
-.produk-materi-image:hover {
+.produk-motor-image:hover {
   transform: translateY(-12px);
   box-shadow: 0px 3px 0px 0px #444444,0px 5px 5px 0px #909090;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-.produk-materi-container1 {
+.produk-motor-container1 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   display: flex;
@@ -36,27 +36,39 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.produk-materi-container2 {
+.produk-motor-container2 {
   width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.produk-materi-text {
+.produk-motor-text {
   width: 100%;
-  font-size: 6px;
+  font-size: 9px;
+  align-self: center;
   font-style: normal;
   text-align: left;
   font-weight: 600;
 }
-.produk-materi-text3 {
+.produk-motor-container3 {
+  gap: 5px;
   width: 100%;
-  font-size: 6px;
-  align-self: center;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.produk-materi-text4 {
+.produk-motor-text1 {
+  width: 100%;
+  font-size: 8px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+}
+.produk-motor-text2 {
   width: 100%;
   font-size: 12px;
   align-self: center;
@@ -64,10 +76,10 @@
   text-align: left;
   font-weight: 600;
 }
-.produk-materi-link {
+.produk-motor-link {
   display: contents;
 }
-.produk-materi-container3 {
+.produk-motor-container4 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   cursor: pointer;
@@ -81,60 +93,60 @@
   text-decoration: none;
   background-color: #fff700;
 }
-.produk-materi-container3:hover {
+.produk-motor-container4:hover {
   transform: scale(105%);
   box-shadow: 0px 3px 0px 0px #6cc400,0px 3px 10px 0px #edff1b;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: #07ff00;
 }
-.produk-materi-text5 {
+.produk-motor-text3 {
   color: var(--dl-color-gray-black);
   font-size: 10px;
   font-style: normal;
   font-weight: 500;
 }
-.produk-materi-icon {
-  width: 15px;
-  height: auto;
-}
+
+
+
+
+
 
 
 
 
 
 @media(max-width: 479px) {
-  .produk-materi-container {
+  .produk-motor-container {
     width: 154px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #f7f7f7;
   }
-  .produk-materi-image {
+  .produk-motor-image {
     height: auto;
   }
-  .produk-materi-container1 {
+  .produk-motor-container1 {
     gap: 5px;
   }
-  .produk-materi-container2 {
+  .produk-motor-container2 {
     flex-direction: row;
   }
-  .produk-materi-text {
-    font-size: 6px;
-  }
-  .produk-materi-text3 {
-    font-size: 6px;
-    text-align: right;
-  }
-  .produk-materi-text4 {
+  .produk-motor-text {
     font-size: 8px;
   }
-  .produk-materi-container3 {
+  .produk-motor-text1 {
+    font-size: 8px;
+  }
+  .produk-motor-text2 {
+    font-size: 8px;
+  }
+  .produk-motor-container4 {
     gap: var(--dl-space-space-halfunit);
     width: 100%;
     height: auto;
     padding: 5px;
   }
-  .produk-materi-text5 {
+  .produk-motor-text3 {
     width: auto;
     font-size: 10px;
   }

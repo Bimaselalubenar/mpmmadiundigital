@@ -155,7 +155,7 @@
   text-align: left;
   font-family: Poppins;
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 0px;
 }
 .promo-container {
   gap: var(--dl-space-space-unit);
@@ -164,10 +164,10 @@
   align-self: flex-start;
   overflow-x: scroll;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-twounits);
 }
 .promo-link {
   color: var(--dl-color-scheme-darkblue);
