@@ -1858,39 +1858,32 @@
 .beat-slider-slide06 {
   display: flex;
   background-size: contain;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/deluxe-dark-silver-1-2-01022023-085913.jpg');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/deluxe-blue-7-01022023-085925.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
 .beat-slider-slide07 {
   display: flex;
   background-size: contain;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/deluxe-blue-7-01022023-085925.jpg');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/dacc342a-c57d-42e6-8d9e-72d2212bf139-02022023-061549-03022023-021229.jpeg');
   background-repeat: no-repeat;
   background-position: center;
 }
 .beat-slider-slide08 {
   display: flex;
   background-size: contain;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/dacc342a-c57d-42e6-8d9e-72d2212bf139-02022023-061549-03022023-021229.jpeg');
+  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/6690cd99-7174-414d-9c90-40bf1bb4e1a5-02022023-061626-03022023-021238.jpeg');
   background-repeat: no-repeat;
   background-position: center;
 }
 .beat-slider-slide09 {
   display: flex;
   background-size: contain;
-  background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/6690cd99-7174-414d-9c90-40bf1bb4e1a5-02022023-061626-03022023-021238.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.beat-slider-slide10 {
-  display: flex;
-  background-size: contain;
   background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/d12e7df9-fa4f-4f14-bef4-777838ae671a-02022023-061603-03022023-021243.jpeg');
   background-repeat: no-repeat;
   background-position: center;
 }
-.beat-slider-slide11 {
+.beat-slider-slide10 {
   display: flex;
   background-size: contain;
   background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/19b33872-5bba-4b98-8de7-ba67af67eda0-02022023-061613-03022023-021248.jpeg');
@@ -1900,10 +1893,6 @@
 .beat-slider-pagination1 {
   height: 8px;
   display: block;
-}
-.beat-slider-pagination2 {
-  height: 8px;
-  display: none;
 }
 .beat-slider-button-prev1 {
   display: none;
@@ -2467,30 +2456,6 @@
     text-transform: capitalize;
     text-decoration: none;
   }
-  .beat-slider-slide04 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-white-515x504px-25102023-055345.png');
-  }
-  .beat-slider-slide05 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-red-515x504px-25102023-055354.png');
-  }
-  .beat-slider-slide06 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide07 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide08 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide09 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide10 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide11 {
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
   .beat-text25 {
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -2623,7 +2588,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/prestige-white-515x504px-25102023-055345.png');
   }
   .beat-slider-slide05 {
     width: 100%;
@@ -2631,7 +2595,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-red-515x504px-25102023-055354.png');
   }
   .beat-slider-slide06 {
     width: 100%;
@@ -2639,7 +2602,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
   }
   .beat-slider-slide07 {
     width: 100%;
@@ -2647,7 +2609,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
   }
   .beat-slider-slide08 {
     width: 100%;
@@ -2655,7 +2616,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
   }
   .beat-slider-slide09 {
     width: 100%;
@@ -2663,7 +2623,6 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
   }
   .beat-slider-slide10 {
     width: 100%;
@@ -2671,20 +2630,8 @@
     align-items: center;
     background-size: contain;
     justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
-  }
-  .beat-slider-slide11 {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    background-size: contain;
-    justify-content: center;
-    background-image: url('https://ik.imagekit.io/zlt25mb52fx/ahmcdn/uploads/product-draft/colors/stylish-green-515x504px-25102023-055405.png');
   }
   .beat-slider-pagination1 {
-    height: var(--dl-size-size-xsmall);
-  }
-  .beat-slider-pagination2 {
     height: var(--dl-size-size-xsmall);
   }
   .beat-text25 {
