@@ -225,6 +225,7 @@
   letter-spacing: 1px;
   background-color: #f4ff01;
 }
+
 @media(max-width: 767px) {
   .form-submit-promo-vario125-container {
     width: 100%;
