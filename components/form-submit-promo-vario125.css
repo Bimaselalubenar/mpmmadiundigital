@@ -1,4 +1,4 @@
-.form-submit-promo-scoopy-banner-container {
+.form-submit-promo-vario125-banner-container {
   width: 100%;
   display: flex;
   z-index: 1;
@@ -9,14 +9,14 @@
   margin-right: 0px;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-container {
+.form-submit-promo-vario125-container {
   width: 100%;
   display: flex;
   box-shadow: 6px 6px 25px 0px rgba(0, 0, 0, 0.2);
   align-items: center;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-form {
+.form-submit-promo-vario125-form {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: auto;
@@ -33,7 +33,7 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.form-submit-promo-scoopy-container01 {
+.form-submit-promo-vario125-container01 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: auto;
@@ -43,7 +43,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.form-submit-promo-scoopy-container02 {
+.form-submit-promo-vario125-container02 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   display: flex;
@@ -52,7 +52,7 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-text {
+.form-submit-promo-vario125-text {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 30px;
@@ -65,7 +65,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.form-submit-promo-scoopy-text1 {
+.form-submit-promo-vario125-text1 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 14px;
@@ -82,7 +82,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.form-submit-promo-scoopy-container03 {
+.form-submit-promo-vario125-container03 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: 100%;
@@ -90,41 +90,41 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-container04 {
+.form-submit-promo-vario125-container04 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-text2 {
+.form-submit-promo-vario125-text2 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-submit-promo-scoopy-textinput {
+.form-submit-promo-vario125-textinput {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
 }
-.form-submit-promo-scoopy-container05 {
+.form-submit-promo-vario125-container05 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.form-submit-promo-scoopy-container06 {
+.form-submit-promo-vario125-container06 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-text3 {
+.form-submit-promo-vario125-text3 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-submit-promo-scoopy-container07 {
+.form-submit-promo-vario125-container07 {
   width: 100%;
   height: 46px;
   display: flex;
@@ -135,13 +135,13 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.form-submit-promo-scoopy-icon {
+.form-submit-promo-vario125-icon {
   fill: var(--dl-color-gray-white);
   width: 46px;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
 }
-.form-submit-promo-scoopy-textinput1 {
+.form-submit-promo-vario125-textinput1 {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
@@ -149,7 +149,7 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-.form-submit-promo-scoopy-container08 {
+.form-submit-promo-vario125-container08 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: 100%;
@@ -157,7 +157,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-container09 {
+.form-submit-promo-vario125-container09 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -165,41 +165,41 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.form-submit-promo-scoopy-container10 {
+.form-submit-promo-vario125-container10 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-text4 {
+.form-submit-promo-vario125-text4 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-submit-promo-scoopy-select {
+.form-submit-promo-vario125-select {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
 }
-.form-submit-promo-scoopy-container11 {
+.form-submit-promo-vario125-container11 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.form-submit-promo-scoopy-text5 {
+.form-submit-promo-vario125-text5 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.form-submit-promo-scoopy-select1 {
+.form-submit-promo-vario125-select1 {
   width: 100%;
   height: 46px;
   padding: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
 }
-.form-submit-promo-scoopy-container12 {
+.form-submit-promo-vario125-container12 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: flex-start;
@@ -209,12 +209,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.form-submit-promo-scoopy-text6 {
+.form-submit-promo-vario125-text6 {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: 0px;
 }
-.form-submit-promo-scoopy-button {
+.form-submit-promo-vario125-button {
   width: 100%;
   cursor: pointer;
   height: 46px;
@@ -225,40 +225,37 @@
   letter-spacing: 1px;
   background-color: #f4ff01;
 }
-
-
-
 @media(max-width: 767px) {
-  .form-submit-promo-scoopy-container {
+  .form-submit-promo-vario125-container {
     width: 100%;
   }
-  .form-submit-promo-scoopy-container01 {
+  .form-submit-promo-vario125-container01 {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .form-submit-promo-scoopy-banner-container {
+  .form-submit-promo-vario125-banner-container {
     width: 100%;
   }
-  .form-submit-promo-scoopy-container {
+  .form-submit-promo-vario125-container {
     width: 100%;
     margin-right: 0px;
   }
-  .form-submit-promo-scoopy-form {
+  .form-submit-promo-vario125-form {
     gap: var(--dl-space-space-halfunit);
     flex-direction: column;
   }
-  .form-submit-promo-scoopy-container01 {
+  .form-submit-promo-vario125-container01 {
     width: 100%;
     flex-direction: column;
   }
-  .form-submit-promo-scoopy-container02 {
+  .form-submit-promo-vario125-container02 {
     align-items: center;
   }
-  .form-submit-promo-scoopy-text {
+  .form-submit-promo-vario125-text {
     font-size: 20px;
   }
-  .form-submit-promo-scoopy-text1 {
+  .form-submit-promo-vario125-text1 {
     width: 100%;
     text-align: center;
   }

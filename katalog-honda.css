@@ -314,3 +314,39 @@
     font-weight: 400;
   }
 }
+
+.katalog-honda-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.katalog-honda-stnk {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  max-width: 685px;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.katalog-honda-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.katalog-honda-image1 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+@media(max-width: 479px) {
+  .katalog-honda-stnk {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}

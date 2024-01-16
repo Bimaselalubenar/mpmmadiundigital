@@ -1277,8 +1277,6 @@
 
 
 
-
-
 @media(max-width: 991px) {
   .footer-footer {
     padding-top: var(--dl-space-space-fourunits);
@@ -1428,7 +1426,7 @@
   font-size: 8px;
   text-align: center;
 }
-.whats-app-link2 {
+.whats-app-navlink1 {
   display: contents;
 }
 .whats-app-container5 {
@@ -1455,7 +1453,7 @@
   font-size: 8px;
   text-align: center;
 }
-.whats-app-link3 {
+.whats-app-link2 {
   display: contents;
 }
 .whats-app-container6 {
@@ -1502,6 +1500,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 
 
 

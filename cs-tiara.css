@@ -17,14 +17,7 @@
   cursor: pointer;
   height: auto;
   object-fit: cover;
-  transition: 0.5s;
   border-radius: var(--dl-radius-radius-radius8);
-}
-.produk-materi1-image:hover {
-  transform: translateY(-12px);
-  box-shadow: 0px 3px 0px 0px #444444,0px 5px 5px 0px #909090;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 .produk-materi1-container1 {
   gap: var(--dl-space-space-halfunit);
@@ -874,8 +867,6 @@
 
 
 
-
-
 @media(max-width: 991px) {
   .footer-footer {
     padding-top: var(--dl-space-space-fourunits);
@@ -1025,7 +1016,7 @@
   font-size: 8px;
   text-align: center;
 }
-.whats-app-link2 {
+.whats-app-navlink1 {
   display: contents;
 }
 .whats-app-container5 {
@@ -1052,7 +1043,7 @@
   font-size: 8px;
   text-align: center;
 }
-.whats-app-link3 {
+.whats-app-link2 {
   display: contents;
 }
 .whats-app-container6 {
@@ -1099,6 +1090,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 
 
 
