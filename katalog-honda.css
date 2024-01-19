@@ -184,6 +184,7 @@
 
 
 
+
 @media(max-width: 991px) {
   .whats-app-container {
     display: flex;
@@ -330,7 +331,7 @@
   max-width: 685px;
   align-self: center;
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-sixunits);
   flex-direction: column;
 }
 .katalog-honda-image {

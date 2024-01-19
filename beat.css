@@ -649,6 +649,7 @@
 
 
 
+
 @media(max-width: 991px) {
   .navbar-navbar {
     align-items: center;
@@ -767,6 +768,9 @@
   width: 100%;
 }
 .otr-root-class-name3 {
+  width: 100%;
+}
+.otr-root-class-name4 {
   width: 100%;
 }
 @media(max-width: 991px) {
@@ -1051,6 +1055,7 @@
   transform: scale(103%);
   background-color: rgb(206, 120, 9);
 }
+
 
 
 
@@ -1527,6 +1532,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 
 
 
